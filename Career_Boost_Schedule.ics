@@ -1,0 +1,291 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Week 3: Start Kubernetes + Monitoring Stack
+DURATION:PT1H
+DTSTART:20250719T090000Z
+SUMMARY:Set up Kubernetes locally or on IBM Cloud
+UID:6bf2bcbe-e507-4f37-9171-d63d52b7c600@6bf2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 6: Chaos Engineering + Runbooks
+DURATION:PT1H
+DTSTART:20250805T090000Z
+SUMMARY:Add runbook to your SRE GitHub folder
+UID:97560486-41b0-4e60-9507-302f90f012b2@9756.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 3: Start Kubernetes + Monitoring Stack
+DURATION:PT1H
+DTSTART:20250722T090000Z
+SUMMARY:Push your monitoring stack code to GitHub
+UID:a34f2922-2309-419b-94b0-25ae4e426bce@a34f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 1: Terraform Foundations
+DURATION:PT1H
+DTSTART:20250711T090000Z
+SUMMARY:Write a README to explain what it does
+UID:bdab1021-41a0-4d77-b6d7-34516b2cdb02@bdab.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 2: Terraform Project Expansion
+DURATION:PT1H
+DTSTART:20250713T090000Z
+SUMMARY:Extend Terraform to deploy the same resource on a second cloud
+UID:9dc57d55-3470-42cd-9176-3a8c55e0ba85@9dc5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 7: Refactor & Finalize Portfolio
+DURATION:PT1H
+DTSTART:20250811T090000Z
+SUMMARY:Mock interview: 2 behavioral\, 2 technical
+UID:b1f7444f-981d-407a-b205-8ebffc83d54c@b1f7.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 4: Alerts + Dashboards
+DURATION:PT1H
+DTSTART:20250725T090000Z
+SUMMARY:Post monitoring setup on LinkedIn
+UID:f8fdae43-89cd-4371-9945-97f6164f5c33@f8fd.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 5: CI/CD Pipeline
+DURATION:PT1H
+DTSTART:20250729T090000Z
+SUMMARY:Push Docker image to Docker Hub
+UID:3d9b5861-cf86-4ee7-9575-dcbf2fca225d@3d9b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 8: Apply + Revise + Launch
+DURATION:PT1H
+DTSTART:20250812T090000Z
+SUMMARY:Final CKA prep – schedule exam
+UID:2f75b12c-bb62-4060-aefc-bb7a053a603c@2f75.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 3: Start Kubernetes + Monitoring Stack
+DURATION:PT1H
+DTSTART:20250721T090000Z
+SUMMARY:Monitor pod metrics\, CPU/memory dashboards
+UID:aa26aa25-115e-4aad-90db-7c717709dfe5@aa26.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 7: Refactor & Finalize Portfolio
+DURATION:PT1H
+DTSTART:20250810T090000Z
+SUMMARY:Summarize IBM chatbot project
+UID:18c56c9e-49a6-4a14-bd16-551513941b8a@18c5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 6: Chaos Engineering + Runbooks
+DURATION:PT1H
+DTSTART:20250803T090000Z
+SUMMARY:Simulate a failure (pod crash or network delay)
+UID:33832f25-0e7d-498a-9023-3ca3e279b9b4@3383.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 1: Terraform Foundations
+DURATION:PT1H
+DTSTART:20250710T090000Z
+SUMMARY:Write Terraform to deploy a VM or Cloud Function (choose one cloud)
+UID:998eaedd-40eb-493b-8cd8-d673a2c7ff21@998e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 8: Apply + Revise + Launch
+DURATION:PT1H
+DTSTART:20250815T090000Z
+SUMMARY:Send outreach DMs on LinkedIn
+UID:85910a2a-506a-4eee-8aad-6e953eac0be4@8591.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 1: Terraform Foundations
+DURATION:PT1H
+DTSTART:20250707T090000Z
+SUMMARY:Create a GitHub repo: multi-cloud-infra
+UID:22842ca9-6766-446c-b0ff-664622dbb573@2284.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 5: CI/CD Pipeline
+DURATION:PT1H
+DTSTART:20250728T090000Z
+SUMMARY:Build GitHub Actions workflow: Build Docker image
+UID:150cf6d9-52dd-42fc-92fb-bc44bce0344c@150c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 6: Chaos Engineering + Runbooks
+DURATION:PT1H
+DTSTART:20250804T090000Z
+SUMMARY:Write a runbook to recover it
+UID:b33c9b8a-ca0c-4c02-af13-5af102fe5c11@b33c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 6: Chaos Engineering + Runbooks
+DURATION:PT1H
+DTSTART:20250807T090000Z
+SUMMARY:Post on LinkedIn: Incident response using runbooks
+UID:71b5091f-82ca-41e1-8615-45d18b05ecc2@71b5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 1: Terraform Foundations
+DURATION:PT1H
+DTSTART:20250708T090000Z
+SUMMARY:Complete HashiCorp Learn Terraform Beginner modules
+UID:a5cbdf2e-1f8c-4ed7-a2fa-9c155b656a1f@a5cb.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 5: CI/CD Pipeline
+DURATION:PT1H
+DTSTART:20250730T090000Z
+SUMMARY:Deploy to Kubernetes cluster
+UID:4b46d196-d1b8-47c6-8201-98eb994febe4@4b46.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 5: CI/CD Pipeline
+DURATION:PT1H
+DTSTART:20250802T090000Z
+SUMMARY:Create a video or GIF of deployment
+UID:004472f1-f636-4331-94ba-0df39c487cc6@0044.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 4: Alerts + Dashboards
+DURATION:PT1H
+DTSTART:20250726T090000Z
+SUMMARY:Start job alerts on LinkedIn\, Naukri\, and Wellfound
+UID:8912150a-f6db-4182-ac7c-99e0b9cc889d@8912.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 3: Start Kubernetes + Monitoring Stack
+DURATION:PT1H
+DTSTART:20250718T090000Z
+SUMMARY:Begin CKA study (KodeKloud or Killer.sh labs)
+UID:ac22838b-0090-44fd-9055-2c658667e2ee@ac22.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 8: Apply + Revise + Launch
+DURATION:PT1H
+DTSTART:20250816T090000Z
+SUMMARY:Celebrate progress!
+UID:08de6e90-10c1-4c73-84ca-7eb8884e24ec@08de.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 1: Terraform Foundations
+DURATION:PT1H
+DTSTART:20250709T090000Z
+SUMMARY:Install Terraform CLI & set up IBM Cloud / GCP CLI
+UID:bff942f8-fb60-42b0-8d0a-722416582ff6@bff9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 8: Apply + Revise + Launch
+DURATION:PT1H
+DTSTART:20250814T090000Z
+SUMMARY:Apply to 10 Cloud/SRE companies
+UID:27085f8d-49fa-491b-903a-77db8c884d0d@2708.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 2: Terraform Project Expansion
+DURATION:PT1H
+DTSTART:20250715T090000Z
+SUMMARY:Store state remotely (Terraform Cloud or S3)
+UID:1e5af5b4-4dba-4ff6-bf7a-4e68e6571a4d@1e5a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 4: Alerts + Dashboards
+DURATION:PT1H
+DTSTART:20250723T090000Z
+SUMMARY:Configure Alertmanager for CPU usage > 70%
+UID:7c8996d2-6a30-48ab-bb2c-cc146161e8e4@7c89.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 3: Start Kubernetes + Monitoring Stack
+DURATION:PT1H
+DTSTART:20250720T090000Z
+SUMMARY:Deploy Prometheus + Grafana using Helm
+UID:14e48d54-4dc6-479c-8c3a-2af6b049cc68@14e4.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 5: CI/CD Pipeline
+DURATION:PT1H
+DTSTART:20250731T090000Z
+SUMMARY:Create a small test app (Node.js\, Flask\, etc.)
+UID:8882e458-5d2b-4541-a078-e6b9ddeac780@8882.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 5: CI/CD Pipeline
+DURATION:PT1H
+DTSTART:20250801T090000Z
+SUMMARY:Document CI/CD process in GitHub
+UID:8974f2dc-5669-4e1a-a400-f503a348e63f@8974.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 7: Refactor & Finalize Portfolio
+DURATION:PT1H
+DTSTART:20250808T090000Z
+SUMMARY:Refactor all GitHub projects for clarity
+UID:f70c36b4-a095-4eb3-9c92-706860d5ce7e@f70c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 8: Apply + Revise + Launch
+DURATION:PT1H
+DTSTART:20250813T090000Z
+SUMMARY:Add GitHub + portfolio to resume & LinkedIn
+UID:c75d5759-4974-43e3-bdab-c24655ac0f22@c75d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 2: Terraform Project Expansion
+DURATION:PT1H
+DTSTART:20250716T090000Z
+SUMMARY:Document infra with architecture diagram
+UID:66cbe18a-145b-4f83-9d62-c6b374e79599@66cb.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 2: Terraform Project Expansion
+DURATION:PT1H
+DTSTART:20250714T090000Z
+SUMMARY:Use variables and modules for reusability
+UID:5f5c9572-bbd4-488f-8d56-43380f94f38e@5f5c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 7: Refactor & Finalize Portfolio
+DURATION:PT1H
+DTSTART:20250809T090000Z
+SUMMARY:Write a portfolio README
+UID:cb5fc117-7c2f-4023-869f-aa1766a57d5e@cb5f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 6: Chaos Engineering + Runbooks
+DURATION:PT1H
+DTSTART:20250806T090000Z
+SUMMARY:Review Terraform exam topics
+UID:a31b701c-dcfe-4425-8f72-e4ca04339dd0@a31b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 4: Alerts + Dashboards
+DURATION:PT1H
+DTSTART:20250727T090000Z
+SUMMARY:Update resume with new project + Terraform knowledge
+UID:9cdb2deb-ca48-4ee9-97ea-1c76bd432c8c@9cdb.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 4: Alerts + Dashboards
+DURATION:PT1H
+DTSTART:20250724T090000Z
+SUMMARY:Add email or Slack notifications
+UID:9d21b3b5-4484-43ee-995d-dc08d5ad686e@9d21.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 2: Terraform Project Expansion
+DURATION:PT1H
+DTSTART:20250717T090000Z
+SUMMARY:Start LinkedIn post: Building multi-cloud infrastructure with Terraform...
+UID:56e8c59e-bc4b-4a1e-b957-7e85048823c6@56e8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Week 1: Terraform Foundations
+DURATION:PT1H
+DTSTART:20250712T090000Z
+SUMMARY:Update resume headline + summary section
+UID:ec056061-a984-4426-a828-7644b2a8ae68@ec05.org
+END:VEVENT
+END:VCALENDAR

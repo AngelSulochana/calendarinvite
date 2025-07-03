@@ -1,0 +1,92 @@
+# Retry generating the ICS calendar file now that tools may be available again
+from datetime import datetime, timedelta
+from ics import Calendar, Event
+
+# Define the start date (next Monday from today)
+today = datetime(2025, 7, 2)
+days_ahead = 0 if today.weekday() == 0 else 7 - today.weekday()
+start_date = today + timedelta(days=days_ahead)
+weekly_tasks = {
+    "Week 1: Terraform Foundations": [
+        "Create a GitHub repo: multi-cloud-infra",
+        "Complete HashiCorp Learn Terraform Beginner modules",
+        "Install Terraform CLI & set up IBM Cloud / GCP CLI",
+        "Write Terraform to deploy a VM or Cloud Function (choose one cloud)",
+        "Write a README to explain what it does",
+        "Update resume headline + summary section"
+    ],
+    "Week 2: Terraform Project Expansion": [
+        "Extend Terraform to deploy the same resource on a second cloud",
+        "Use variables and modules for reusability",
+        "Store state remotely (Terraform Cloud or S3)",
+        "Document infra with architecture diagram",
+        "Start LinkedIn post: Building multi-cloud infrastructure with Terraform..."
+    ],
+    "Week 3: Start Kubernetes + Monitoring Stack": [
+        "Begin CKA study (KodeKloud or Killer.sh labs)",
+        "Set up Kubernetes locally or on IBM Cloud",
+        "Deploy Prometheus + Grafana using Helm",
+        "Monitor pod metrics, CPU/memory dashboards",
+        "Push your monitoring stack code to GitHub"
+    ],
+    "Week 4: Alerts + Dashboards": [
+        "Configure Alertmanager for CPU usage > 70%",
+        "Add email or Slack notifications",
+        "Post monitoring setup on LinkedIn",
+        "Start job alerts on LinkedIn, Naukri, and Wellfound",
+        "Update resume with new project + Terraform knowledge"
+    ],
+    "Week 5: CI/CD Pipeline": [
+        "Build GitHub Actions workflow: Build Docker image",
+        "Push Docker image to Docker Hub",
+        "Deploy to Kubernetes cluster",
+        "Create a small test app (Node.js, Flask, etc.)",
+        "Document CI/CD process in GitHub",
+        "Create a video or GIF of deployment"
+    ],
+    "Week 6: Chaos Engineering + Runbooks": [
+        "Simulate a failure (pod crash or network delay)",
+        "Write a runbook to recover it",
+        "Add runbook to your SRE GitHub folder",
+        "Review Terraform exam topics",
+        "Post on LinkedIn: Incident response using runbooks"
+    ],
+    "Week 7: Refactor & Finalize Portfolio": [
+        "Refactor all GitHub projects for clarity",
+        "Write a portfolio README",
+        "Summarize IBM chatbot project",
+        "Mock interview: 2 behavioral, 2 technical"
+    ],
+    "Week 8: Apply + Revise + Launch": [
+        "Final CKA prep – schedule exam",
+        "Add GitHub + portfolio to resume & LinkedIn",
+        "Apply to 10 Cloud/SRE companies",
+        "Send outreach DMs on LinkedIn",
+        "Celebrate progress!"
+    ]
+}
+
+# Create ICS calendar
+calendar = Calendar()
+
+def clean_text(text):
+    """Remove or replace characters that may not be allowed in calendar event names."""
+    return text.strip().replace("\n", " ").replace("\r", "")
+
+day_offset = 0
+for week, tasks in weekly_tasks.items():
+    for task in tasks:
+        event = Event()
+        event.name = clean_text(task)
+        event.begin = (start_date + timedelta(days=day_offset)).replace(hour=9, minute=0).isoformat()
+        event.duration = timedelta(hours=1)
+        event.description = clean_text(week)
+        calendar.events.add(event)
+        day_offset += 1
+
+# Save ICS file
+ics_path = "Career_Boost_Schedule.ics"
+with open(ics_path, "w") as f:
+    f.writelines(calendar)
+
+ics_path
